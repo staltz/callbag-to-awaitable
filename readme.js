@@ -11,7 +11,7 @@
  * Example: on an async pullable callbag source, apply some operators, then
  * convert to an awaitable and consume it in an `async`/`await` function:
  *
- *     const {forEach, take, map, pipe} = require('callbag-basics');
+ *     const {pipe, take, map} = require('callbag-basics');
  *     const toAwaitable = require('callbag-to-awaitable');
  *
  *     function pullableAsyncSource(start, sink) {
