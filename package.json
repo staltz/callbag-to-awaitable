@@ -1,0 +1,22 @@
+{
+  "name": "callbag-to-awaitable",
+  "version": "1.0.0",
+  "description": "Use async-await to consume a pullable callbag source",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staltz/callbag-to-awaitable.git"
+  },
+  "main": "readme.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "author": "staltz.com",
+  "license": "MIT",
+  "keywords": [
+    "callbag"
+  ],
+  "devDependencies": {
+    "callbag-basics": "2.0.x",
+    "tape": "^4.8.0"
+  }
+}
