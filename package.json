@@ -16,7 +16,6 @@
     "callbag"
   ],
   "devDependencies": {
-    "callbag-basics": "2.0.x",
     "tape": "^4.8.0"
   }
 }

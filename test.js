@@ -1,5 +1,4 @@
 const test = require('tape');
-const fromIter = require('callbag-basics').fromIter;
 const toAwaitable = require('./readme');
 
 test('it converts a sync pullable source to awaitable', async function (t) {
